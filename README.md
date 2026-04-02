@@ -28,6 +28,25 @@ React Router is configured with a shared layout and starter pages:
 - `/about`
 - catch-all `404`
 
+## Commit Convention
+
+Commit messages are validated locally through Husky + Commitlint using the Conventional Commits format.
+
+Examples:
+
+```bash
+feat: add user profile page
+fix: correct router redirect
+docs: update project setup guide
+chore: configure commit message linting
+```
+
+You can also check recent commits manually with:
+
+```bash
+npm run commitlint
+```
+
 ## Start editing
 
 The main starter screen lives in `src/App.tsx`.
